@@ -10,7 +10,7 @@
 List result = (List) request.getAttribute("books");
 String author = (String) request.getAttribute("author");
 Iterator it = result.iterator();
-out.println("<br>For the " +author+ ", we have <br><br>");
+out.println("<br>For " +author+ ", we have <br><br>");
 while(it.hasNext()){
 out.println(it.next()+"<br>");
 }
