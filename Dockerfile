@@ -1,6 +1,6 @@
 # Pull base image.
 # FROM ubuntu:latest
-FROM tomcat:8.0-alpine
+FROM tomcat:latest
 
 RUN \
 # Update
