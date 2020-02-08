@@ -12,11 +12,14 @@ public class GetBookService {
 
 	        if(author.equals(GetBookAuthor.DANBROWN)){
 	        	books.add("Angels and Demons");
-	        	books.add(("Lost Symbol"));
+	        	books.add("Lost Symbol");
+			books.add("Deception Point");
+			books.add("Digital Fortress");
 
 	        }else if(author.equals(GetBookAuthor.PAULOCOELHO)){
 	        	books.add("Alchemist");
 	        	books.add("The Zahir");
+			books.add("Eleven Minutes");
 
 	        }else if(author.equals(GetBookAuthor.SIDNEYSHELDON)){
 	            books.add("Tell me your dreams");
