@@ -25,6 +25,8 @@ public class GetBookService {
 	            books.add("Tell me your dreams");
 	            books.add("Bloodline");
 	            books.add("Master of the game");
+		    books.add("The best laid plans");
+		    books.add("Memories of midnight");
 
 	        }else {
 	            books.add("No book Available");
