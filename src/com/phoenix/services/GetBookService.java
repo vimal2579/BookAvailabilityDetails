@@ -15,6 +15,7 @@ public class GetBookService {
 	        	books.add("Lost Symbol");
 			books.add("Deception Point");
 			books.add("Digital Fortress");
+			books.add("Inferno");
 
 	        }else if(author.equals(GetBookAuthor.PAULOCOELHO)){
 	        	books.add("Alchemist");
